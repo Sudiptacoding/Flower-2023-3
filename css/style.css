@@ -143,3 +143,64 @@ header {
     font-weight: 600;
     line-height: 35px;
 }
+
+/* femous view */
+.famous-viwe-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+}
+
+.famous-viwe-section h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.famous-viwe-section img {
+    width: 400px;
+    height: 230px;
+}
+
+.famous-viwe-section .image-1 {
+    width: 87%;
+}
+
+/* Hot Deal  */
+
+.hot-seal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 10rem;
+    padding: 100px;
+    text-align: center;
+}
+
+.hot-seal-container .hot-deal-text h3 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-seal-container .hot-deal-text h3 span {
+    color: #E55473;
+}
+
+.hot-seal-container .hot-deal-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0px;
+}
