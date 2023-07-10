@@ -204,3 +204,104 @@ header {
     line-height: 30px;
     padding: 20px 0px;
 }
+
+/* instagram section */
+.instagram-section {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.instagram-section .instagram-s h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 72px;
+
+}
+
+.instagram-section .instagram-s p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 40px 0px;
+}
+
+.instagram-section .instagram-image {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-bg-section {
+    background-image: url('../image/Rectangle\ 9.png');
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 6% 0px;
+}
+
+.instagram-bg-section h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-bg-section p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 13px 0px 37px;
+}
+
+.instagram-bg-section input {
+    width: 700px;
+    padding: 17px 31px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 18px;
+}
+
+/* footer */
+footer section {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111010;
+    text-align: center;
+}
+
+footer section h4 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer section h4 span {
+    color: #ffffff;
+}
+
+footer section p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer section h6 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px 0px;
+}
